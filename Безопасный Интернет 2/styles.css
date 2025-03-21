@@ -1,0 +1,36 @@
+.big {
+    font-size: 20px;
+}
+.button {
+    display: inline-flex;
+    font-size: 12px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff0000;
+    background: rgb(0, 238, 255);
+    border: 1px solid;
+    cursor: pointer;
+    transition: .3s linear;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.button:hover {
+    background: #15ff00;
+}
+.button:after {
+    font-family: Linearicons-Free;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    margin-left: 30px;
+    padding-left: 20px;
+    border-left: 1px solid;
+}
